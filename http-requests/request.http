@@ -1,0 +1,11 @@
+GET {{host}}/demo
+Accept: application/json
+
+###
+
+POST {{host}}/demo
+
+{
+    "brand" : "audi",
+    "type" : "a4"
+}
